@@ -32,7 +32,7 @@ def get_api():
 @app.rout('/hi')
 @app.rout('/hell')
 def hi():
-    return "ขอบคุณ"    
+    return " สวัสดี "    
 
 if __name__ == "__main__":
     app.run(debug=False)
